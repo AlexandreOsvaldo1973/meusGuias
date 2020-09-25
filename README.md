@@ -38,3 +38,5 @@ git reset HEAD // tira da fila do staged, apaga as modificações feitas no arqu
         git reset hard //
 
 
+Esse é um site muito bom pra aprender Git:
+https://www.atlassian.com/br/git/tutorials/learn-git-with-bitbucket-cloud
