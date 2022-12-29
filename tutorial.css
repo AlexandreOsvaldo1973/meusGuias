@@ -1,0 +1,10 @@
+body {
+    background-color: beige;
+}
+
+h1 {
+    color: burlywood;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    text-align: center;
+}
