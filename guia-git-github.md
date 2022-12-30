@@ -16,7 +16,7 @@ Criar uma cópia de trabalho em um repositório remoto:
 
 FLUXO DE TRABALHO
 
-O repositório local consite em 3 ramificações:
+O repositório local consiste em 3 ramificações:
 
 - working directory - contém os arquivos atuais
 - index - área temporária
@@ -43,7 +43,7 @@ RAMIFICAÇÕES 'BRANCHS'
 
 Branches são utilizados para desenvolver funcionalidades isoladas umas das outras. O branch master é o padrão quando é criado um repositório. Usando outros branches consegue-se isolar o código na fase de desenvolvimento e depois mesclar ao master após a conclusão, evitando subir código errado.
 
-Criar um nvo branche:
+Criar um novo branch:
 
     git checkout -b funcionalidade_x
 
@@ -51,7 +51,7 @@ Para retornar ao master:
 
     git checkout master
 
-Para remover o branche:
+Para remover o branch:
 
     git branch -d funcionalidade_x
 
