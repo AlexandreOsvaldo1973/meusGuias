@@ -61,3 +61,63 @@ Disponibilizar o novo branch para outros:
 
 ATUALIZAR E MESCLAR
 
+Atualizar o repositório local com a mais nova versão do repositório remoto:
+
+    git pull
+
+Obter e mesclar alterações remotas (em caso de conflito executar merge de cada arquivo manualmente):
+
+    git merge <branch>
+
+Depois de mesclar marcar com:
+
+    git add <arquivo>
+
+Antes de subir alterações visualizar:
+
+    git diff <branch origem> <branch destino>
+
+ROTULANDO
+
+Se recomenda criar rótulos para releases de softwares.
+
+Obter o id do commit:
+
+    git log
+
+Criar um novo rótulo:
+
+    git tag 1.0.0 1b2c3d45ef # representa os 10 primeiros caracteres do id do commit que referencia o rótulo.
+
+SOBRESCREVER ALTERAÇÕES LOCAIS
+
+Caso algo seja feito errado, para sobrescrever as alterações locais (HEAD) use:
+
+    git checkout -- <arquivo>
+
+Para apagar alterações adicionadas ao INDEX (commits locais), recupere o histórico mais recente do servidor e aponte para o branch master:
+
+    git fetch origin
+    git reset --hard origin/master
+
+DICAS ÚTEIS
+
+- Interface gráfica padrão instale gitk
+- Usar saídas do git coloridas:
+
+    git config color.ui true
+
+- Exibir log em apenas uma linha por commit:
+
+    git config format.pretty oneline
+
+- Fazer inclusões interativas:
+
+    git add -i
+
+GUIAS ÚTEIS:
+
+Livro Pro Git: https://git-scm.com/book/pt-br/v2 (até a página 144 está em português, depois em inglês)
+ProGit Magazine: https://progit.org/ (site em francês)
+Think Like (a) Git: https://think-like-a-git.net/ (site em inglês)
+Suporte do Git: https://support.github.com/ 
