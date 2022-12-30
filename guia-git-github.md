@@ -117,7 +117,7 @@ DICAS ÚTEIS
 
 GUIAS ÚTEIS:
 
-Livro Pro Git: https://git-scm.com/book/pt-br/v2 (até a página 144 está em português, depois em inglês)
-ProGit Magazine: https://progit.org/ (site em francês)
-Think Like (a) Git: https://think-like-a-git.net/ (site em inglês)
-Suporte do Git: https://support.github.com/ 
+- Livro Pro Git: https://git-scm.com/book/pt-br/v2 (até a página 144 está em português, depois em inglês)
+- ProGit Magazine: https://progit.org/ (site em francês)
+- Think Like (a) Git: https://think-like-a-git.net/ (site em inglês)
+- Suporte do Git: https://support.github.com/ 
