@@ -1,20 +1,81 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-    <head>
-        <title></title>
-    </head>
-    <body>
-        <h1>Tutorial HTML</h1>
-        <p style="color: red;"></p><br><!--Break line-->
-        <hr> <!--Linha horizontal-->
-        <pre> <!--Define preformated text-->
-            Mantem a formatação
-            conforme é escrito
-            não necessitando de quebras
-        </pre>
-        <a href="https://google.com">Link</a><br>
-        <img  src="logo.jpg" alt="logotipo" width="100" height="50"> <!-- Absolute URl https://www. or retalive URL /image/logo.jpg-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="tutorial.js">
+        //alert('Está funcionando!');
+    </script>
+    <title>Learning JS</title>
+</head>
+<body>
+    <!--<h2> JavaScript no body</h2>
+    Data e Hora atual:<br>
+    <div id="data" style="display: inline;"></div><br>
+    <script type="text/javascript">
+        document.getElementById("data").innerHTML=Date();"<br>"
+        document.write("erro no console","<br>"); // qualquer erro é mostrado no console
+        document.write("Ano que vem você terá ", idade + 1, " anos.", "<br>");
+        document.write("Seu nome ", nome," sua idade ",idade," sua altura ", altura,"<br>");
+        document.write("Soma= ", parseInt(num1) + parseInt(num2),"<br>");
+        document.write("Soma com ponto= ", parseFloat(num1) + parseFloat(num2),"<br>");
+        document.write("Soma= ", soma,"<br>");
+        document.write("Subtração= ", subtrai,"<br>");
+        document.write("Multiplicação= ", multiplica,"<br>");
+        document.write("Divisão= ", divide,"<br>");
+        document.write(teste);
+        document.write(num1, " elevado a ", num2, " = ", Math.pow(num1, num2));
+    </script>
+    <p id="data"></p>
+    <button type="button" onclick="mostraData()">Exibir Data</button>
+    <p id="msg"></p>
+    <button type="button" onclick="mostraMensagem()">Exibir Mensagem</button><br><br>
+    
+    <input id="textinput" name="textinput" value="" type="text"><br><br>
+    <button onclick="enviar()">Escreva alguma coisa:</button><br><br>
+
+    <input id="textinput1" name="textinput1" value="" type="text"> == <input id="textinput2" name="textinput2" value="" type="text"><button onclick="compara1()">Comparar:</button><br>
+    <input id="textinput3" name="textinput3" value="" type="text"> != <input id="textinput4" name="textinput4" value="" type="text"><button onclick="compara2()">Comparar:</button><br>
+    <input id="textinput5" name="textinput5" value="" type="text"> > <input id="textinput6" name="textinput6" value="" type="text"><button onclick="compara3()">Comparar:</button><br>
+    <input id="textinput7" name="textinput7" value="" type="text"> >= <input id="textinput8" name="textinput8" value="" type="text"><button onclick="compara4()">Comparar:</button><br>
+    <input id="textinput9" name="textinput9" value="" type="text"> < <input id="textinput10" name="textinput10" value="" type="text"><button onclick="compara5()">Comparar:</button><br>
+    <input id="textinput11" name="textinput11" value="" type="text"> <= <input id="textinput12" name="textinput12" value="" type="text"><button onclick="compara6()">Comparar:</button><br>
+    
+    Digite sua idade:
+    <input id="idade" type="text">    
+    <button onclick="entrar()">Entrar</button><br>
+    
+    <input id="password" type="password">
+    <button onclick="login()">Entrar</button>
+
+    <input id="idade" type="text">
+    <button onclick="aposentar()">Sua idade?</button>
+
+Digite um número:
+    <input id="num" type="number">
+    <button onclick="numero()">Número</button>
+
+Digite dois números:
+    <input id="num1" type="number">
+    <input id="num2" type="number">
+
+    <button onclick="maior()">Testar</button>
+Digite sua idade:
+<input id="idade" type="number"><br>
+Digite seu saláario:
+<input id="salario" type="number">
+<button onclick="checar()">Checar</button>
+-->
+
+<h2>Você é:</h2>
+<p>1. Gestante</p>
+<P>2. Idoso(a)</p>
+<P>3. Deficiente</p>
+<P>4. Nenhuma das opções acima</p><br>
+<input id="identifica" type="number">
+<button onclick="fila()">Senha</button>
 
 
-    </body>
+</body>
 </html>
