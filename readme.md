@@ -15,5 +15,3 @@
 <h3>Sistemas para Internet - Unicesumar - 2021<h3>
 <h3>alexandreosvaldo@hotmail.com</h3>
 <h3>(41) 99961-0730</h3>
-
-aaa
